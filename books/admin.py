@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from books.models import Offer, Patients, Request
+
+admin.site.register(Patients)
+admin.site.register(Request)
+admin.site.register(Offer)
