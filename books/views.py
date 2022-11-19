@@ -24,6 +24,8 @@ def cadastroPatient(request):
         form = PatientForm(request.POST)
         if  form.is_valid():
             form.save()
+            form = PatientForm()
+            
     else:
         form = PatientForm()
     
