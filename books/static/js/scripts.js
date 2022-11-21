@@ -5,7 +5,7 @@ var patient = document.querySelector('#patients')
 var requests = document.querySelector('#requests')
 var offers = document.querySelector('#offers')
 
-
+// EVENTOS 
 btn_patient.addEventListener('click', function(){
 
     if(patient.style.display === 'block'){
